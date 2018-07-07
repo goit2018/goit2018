@@ -1,12 +1,21 @@
 <template>
-  <button v-on:click="getSearch">kjhsfhd</button>
+    
+<div id="app">
+        
+
+
+<!--<router-link to="/previewcard">About</router-link>-->
+
+<router-view></router-view>
+
+</div>
 </template>
 
 <script>
 // import home from '@/components/home'
-import axios from 'axios'
+//import axios from 'axios'
     
-
+//import PreviewCardTop from '@/components/PreviewCard/PreviewCardTop'
 export default {
 
   name: 'App',
