@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="container">
     <div id="nav">
       <router-link to="/">Home</router-link> |
@@ -11,6 +12,15 @@
 <script>
 
 import axios from 'axios'
+=======
+  <button v-on:click="getSearch">kjhsfhd</button>
+</template>
+
+<script>
+// import home from '@/components/home'
+import axios from 'axios'
+    
+>>>>>>> parent of 901e258... added fixes in film card
 
 export default {
 
